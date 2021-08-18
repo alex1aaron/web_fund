@@ -1,0 +1,16 @@
+.flag{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    background-color: lightblue;
+    
+}
+
+.center{
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white ;
+}
