@@ -6,6 +6,7 @@
 body{
     padding: 10px;
     background-color: whitesmoke;
+    margin: 0 auto;
 }
 
 .nav{
@@ -43,7 +44,7 @@ a{
     color: blue;
 }
 
-button{
+.nav-links button{
     box-shadow: 2px 3px 3px black;
     background-color: indianred;
     border-radius: 16px;
@@ -58,16 +59,17 @@ button{
 
 .col-1{
     flex: 2;
-
+    margin: 30px 40px;
 }
 .col-2{
     flex: 1;
-
+    margin: 30px 40px;
 }
 
 .container-1{
     border: 3px solid black;
     box-shadow: 3px 3px 2px grey;
+    border-radius: 10px;
     height: 400px;
     width: 570px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -76,7 +78,9 @@ button{
 .container-2{
     border: 3px solid black;
     box-shadow: 3px 3px 2px grey;
+    border-radius: 10px;
     width: 570px;
+    margin-top: 20px;
 }
 
 .container-2 h2{
@@ -86,21 +90,44 @@ button{
 .container-3{
     border: 3px solid black;
     box-shadow: 3px 3px 2px grey;
+    border-radius: 10px;
     width: 250px;
+}
+
+.container-3 h3{
+    display: flex;
+    justify-content: space-around;
 }
 
 .container-3 h2{
     background-color: mediumaquamarine;
 }
 
+.container-3 button{
+    border: none;
+    background-color: whitesmoke;
+    height: 30px;
+    width: 30px;
+    display: flex;
+
+}
+
 .container-4{
     border: 3px solid black;
     box-shadow: 3px 3px 2px grey;
+    border-radius: 10px;
     width: 250px;
+    margin-top: 20px;
 }
 
 .container-4 h2{
     background-color: mediumaquamarine;
+}
+
+.container-4 a{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
 }
 
 
@@ -114,10 +141,16 @@ button{
 
 .header-img{
     background-color: mediumaquamarine;
+    border-radius: 7px;
 }
 
 h1, h3, p{
     margin: 10px 5px;
+}
+
+h2{
+    padding-left: 5px;
+    border-radius: 7px;
 }
 
 .header-img img{
