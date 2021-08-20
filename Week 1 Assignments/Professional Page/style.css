@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: mediumaquamarine;
+    border-radius: 15px;
+    border: 3px solid black;
+    padding: 0 20px;
+    box-shadow: 2px 3px 3px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.nav-title{
+    margin-left: 25px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+li{
+    list-style-type: none;
+    padding: 30px 50px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+button{
+    box-shadow: 2px 3px 3px black;
+    background-color: indianred;
+    border-radius: 16px;
+    padding: 0 15px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-layout{
+    display: flex;
+}
+
+.col-1{
+    flex: 2;
+
+}
+.col-2{
+    flex: 1;
+
+}
+
+.container-1{
+    border: 3px solid black;
+    box-shadow: 3px 3px 2px grey;
+    height: 400px;
+    width: 570px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-2{
+    border: 3px solid black;
+    box-shadow: 3px 3px 2px grey;
+    width: 570px;
+}
+
+.container-2 h2{
+    background-color: mediumaquamarine;
+}
+
+.container-3{
+    border: 3px solid black;
+    box-shadow: 3px 3px 2px grey;
+    width: 250px;
+}
+
+.container-3 h2{
+    background-color: mediumaquamarine;
+}
+
+.container-4{
+    border: 3px solid black;
+    box-shadow: 3px 3px 2px grey;
+    width: 250px;
+}
+
+.container-4 h2{
+    background-color: mediumaquamarine;
+}
+
+
+.profile{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.header-img{
+    background-color: mediumaquamarine;
+}
+
+h1, h3, p{
+    margin: 10px 5px;
+}
+
+.header-img img{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
