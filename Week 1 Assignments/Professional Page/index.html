@@ -26,12 +26,12 @@
                     <img src="icons/user-circle.png" alt="user pic">
                 </div>
                 <div class="profile">
-                    <h1>Alex Aaron</h1>
+                    <h1 id="name">Alex Aaron</h1>
                     <h3><img src="icons/map-marker.png" alt="location flag">Los Angeles, Ca</h3>
                     <p>Designer | Engineer <br>
                         HTML | CSS | JavaScript <br>
                         Python | JAVA | MERN</p>
-                    <p><img src="icons/gear.png" alt="settings gear"><a href="#">Edit Profile</a></p>
+                    <p><img src="icons/gear.png" alt="settings gear"><a href="#" onclick="editName()">Edit Profile</a></p>
                 </div>
             </div>
             <div class="container-2">
@@ -46,24 +46,31 @@
         <div class="col-2">
             <div class="container-3">
                 <div class="requests">
-                    <h2>Connection Requests</h2>
-                    <h3><img src="icons/user-circle.png" alt="user pic">Jason D.<button><img src="icons/accept-circle.png" alt="check mark"></button><button><img src="icons/close-circle.png" alt="reject"></button></h3>
-                    <h3><img src="icons/user-circle.png" alt="user pic">Jesse A. <button><img src="icons/accept-circle.png" alt="check mark"></button><button><img src="icons/close-circle.png" alt="reject"></button></h3>
-                    <h3><img src="icons/user-circle.png" alt="user pic">Ashley W.<button><img src="icons/accept-circle.png" alt="check mark"></button><button><img src="icons/close-circle.png" alt="reject"></button></h3>
+                    <h2><span id="connection-request">3</span> Requests</h2>
+                    <h3 id="friend-request"><img src="icons/user-circle.png" alt="user pic">Jason D.<button><img onclick="remove();updateRequestCount(); updateConnectionCount();"  src="icons/accept-circle.png" alt="check mark"></button><button><img onclick="remove();updateRequestCount()" src="icons/close-circle.png" alt="reject"></button></h3>
+                    <h3 id="friend-request2"><img src="icons/user-circle.png" alt="user pic">Jesse A. <button><img onclick="remove2(); updateConnectionCount(); updateRequestCount()" src="icons/accept-circle.png" alt="check mark"></button><button><img onclick="remove2(); updateRequestCount()" src="icons/close-circle.png" alt="reject"></button></h3>
+                    <h3 id="friend-request3"><img src="icons/user-circle.png" alt="user pic">Ashley W.<button><img onclick="remove3(); updateConnectionCount(); updateRequestCount()" src="icons/accept-circle.png" alt="check mark"></button><button><img onclick="remove3(); updateRequestCount()" src="icons/close-circle.png" alt="reject"></button></h3>
                 </div>
             </div>
             <div class="container-4">
                 <div class="connections">
-                    <h2>Your Connections</h2>
+                    <h2><span id="connections">429</span> Connections</h2>
+                    <div class="connections-list">
                         <h3><img src="icons/user-circle.png" alt="user pic">Josh A.</h3>
                         <h3><img src="icons/user-circle.png" alt="user pic">Noah D.</h3>
                         <h3><img src="icons/user-circle.png" alt="user pic">John K.</h3>
                         <h3><img src="icons/user-circle.png" alt="user pic">Sammy B.</h3>
+                        <h3><img src="icons/user-circle.png" alt="user pic">Josh A.</h3>
+                        <h3><img src="icons/user-circle.png" alt="user pic">Noah D.</h3>
+                        <h3><img src="icons/user-circle.png" alt="user pic">John K.</h3>
+                        <h3><img src="icons/user-circle.png" alt="user pic">Sammy B.</h3>
+                    </div>
                     <a href="#">View More</a>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
