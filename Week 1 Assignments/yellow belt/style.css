@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 10px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-bar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#logo{
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: mediumaquamarine;
+}
+
+.top-bar h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.top-bar input{
+    padding: 7px 30px;
+    border-radius: 14px;
+    width: 50%;
+}
+
+#magnifier{
+    position: relative;
+    top: 1px;
+    right: 80px;
+    width: 20px;
+    height: 20px;
+}
+
+#shopping-cart{
+    height: 30px;
+    width: 30px;
+}
+
+.aquamarine{
+    background-color: mediumaquamarine;
+}
+
+.center-x{
+    justify-content: center;
+}
+
+.center-y{
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    height: 100%;
+}
+
+.plant-list{
+    margin: 30px 0;
+    border-bottom: 2px solid black;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 10px 30px;
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+}
+
+#motto{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: lighter;
+}
+.spacing{
+    margin: 0 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.discovery{
+    display: flex;
+}
+
+.arrow{
+    height: 30px;
+    width: 30px;
+}
+
+.bigpic{
+    display: flex;
+}
+
+.bigpic-words{
+    background-color: mediumaquamarine;
+    color: white;
+    font-size: xx-large;
+}
+
+.bigpic-words p{
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.bigpic-words a{
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.aloe{
+    margin: 0 0 20px 20px;
+    background-color: mediumaquamarine;
+    font-size: x-large;
+    color: white;
+}
+.aloe a{
+    color: white;
+}
+
+.main-right{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.plants ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    text-align: center;
+    background-color:aquamarine;
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+.circle-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.cookies{
+    position: relative;
+    bottom: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: solid 2px black;
+    padding: 15px;
+}
+
+.cookies button{
+    background-color: mediumaquamarine;
+    box-shadow: 3px 3px black;
+    color: white;
+    padding: 10px 15px;
+}
+
+.cookies a{
+    text-decoration: underline;
+    color: blue;
+}
+.cookies img{
+    height: 50px;
+    width: 50px;
+}
